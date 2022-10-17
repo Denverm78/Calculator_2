@@ -8,3 +8,6 @@ def error_value():
 
 def print_total():
     return print(f'Результат: {model.total}')
+
+def print_total_str(res):
+    return print(f"Результат выражения {model.my_str} = {res}")
